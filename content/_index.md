@@ -34,13 +34,40 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My work sits at the intersection of **causal discovery**, **time series
+        analysis**, and **machine learning**. I focus on developing methods that
+        can recover meaningful causal structure from *autocorrelated* and
+        *non-stationary* multivariate time series—exactly the kind of data that
+        appears in real-world systems.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Methodologically, I work on:
+        - **Temporal causal discovery** from complex, high-dimensional time series  
+        - **Decomposition-based approaches** that separate trend, seasonal, and
+          residual components (e.g., DCD)  
+        - **Attention-based and deep learning models** (CDANs, eCDANs) for
+          scalable structure learning  
+        - **Benchmarking frameworks** (TimeGraph) to stress-test causal discovery
+          algorithms under realistic temporal conditions
 
-        Please reach out to collaborate 😃
+        Application domains include:
+        - **Healthcare**, where robust causal structure can support early
+          warning, treatment policy evaluation, and patient monitoring  
+        - **Climate and environmental systems**, such as Arctic sea ice prediction
+          and climate teleconnections
+
+        I am particularly interested in questions like:
+        - How can we make causal discovery robust to temporal dependence
+          and non-stationarity?
+        - How should we evaluate causal graphs when the data are messy,
+          irregular, and partially observed?
+        - How can causal structure be integrated into downstream decision-making
+          and forecasting systems?
+
+        I am actively looking for collaborations at the interface of **causal
+        inference**, **time series**, and **real-world decision systems**.
     design:
       columns: '1'
+
   - block: collection
     id: papers
     content:
