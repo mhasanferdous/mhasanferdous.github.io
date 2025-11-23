@@ -4,9 +4,11 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name
-title: Hugo Academic CV Theme
-# Website URL
-baseURL: 'https://example.com/'
+title: Muhammad Hasan Ferdous
+# Website URL (Change this to your actual GitHub Pages URL)
+baseURL: 'https://mhasanferdous.github.io/'
+
+# ... keep the rest of the file as is ...
 
 ############################
 ## LANGUAGE
