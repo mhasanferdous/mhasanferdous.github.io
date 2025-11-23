@@ -12,166 +12,137 @@ last_name: Ferdous
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji (shown next to your name)
+# Status emoji
 status:
-  icon: hero/academic-cap
+  icon: 🎓
+
+# Is this the primary user of the site?
+superuser: true
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 
 # Role/position/tagline
 role: Ph.D. Candidate in Information Systems
 
-# Organizations/Affiliations to display in Biography block
+# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of Maryland, Baltimore County (UMBC)
-    url: https://umbc.edu
+    url: https://umbc.edu/
 
-# Short bio (used in e.g. author cards, page metadata)
-bio: >
-  Ph.D. candidate in Information Systems at UMBC, working on robust causal
-  discovery from autocorrelated, non-stationary multivariate time series data
-  with applications in healthcare and climate.
-
-# Social/profile links
-# (you already have icons in assets/media/icons, just update the URLs)
+# Social network links
 profiles:
   - icon: at-symbol
     url: 'mailto:h.ferdous@umbc.edu'
-    label: Email
+    label: E-mail Me
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/hasanferdous/
   - icon: brands/github
     url: https://github.com/hferdous
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/hasanferdous/
-  - icon: academicons/google-scholar
-    url: ''   # add your Scholar link when ready
-  - icon: globe-alt
-    url: https://mhasanferdous.github.io
-    label: Personal Website
 
-# Research interests
 interests:
-  - Causal discovery from multivariate time series
-  - Causal inference and interventions
-  - Time series analysis & forecasting
-  - Deep learning
-  - Applications in healthcare and climate systems
+  - Causal AI
+  - Data Analytics
+  - Cybersecurity & Network Security
+  - Secure Information Systems
+  - Machine Learning
 
-# Education
 education:
   - area: Ph.D. in Information Systems
     institution: University of Maryland, Baltimore County (UMBC)
-    icon: hero/academic-cap
     date_start: 2021-01-01
     date_end: ''
     summary: |
-      Focus: Causal discovery from complex multivariate time series data.  
-      CGPA: 3.809 / 4.0
+      Focus on Causal Discovery from Complex Multivariate Time Series Data.
+      CGPA: 3.809/4.0. Candidacy: May 2025. Expected Graduation: 2026.
   - area: M.S. in Information Systems
     institution: University of Maryland, Baltimore County (UMBC)
-    icon: hero/academic-cap
     date_start: 2021-01-01
     date_end: 2023-12-31
     summary: |
-      CGPA: 3.809 / 4.0
+      CGPA: 3.809/4.0
   - area: B.Sc. in Statistics
     institution: University of Dhaka, Bangladesh
-    icon: hero/academic-cap
     date_start: 2005-05-01
     date_end: 2010-12-31
     summary: |
-      Result: First Class.
+      Result: 1st Class
 
-# Work & academic experience (high level; details can go into a separate page if needed)
-experience:
-  - title: Graduate Teaching Assistant
-    company: University of Maryland, Baltimore County
-    company_url: https://umbc.edu
-    location: Baltimore, MD, USA
+work:
+  - position: Graduate Teaching Assistant
+    company_name: UMBC
+    company_url: ''
     date_start: 2025-01-01
     date_end: ''
-    description: |
-      Provided teaching support for Structured Systems Analysis and Design, including
-      review sessions, assignment grading, and helping students understand process
-      modeling and structured design principles.
-  - title: Graduate Research Assistant
-    company: University of Maryland, Baltimore County
-    company_url: https://umbc.edu
-    location: Baltimore, MD, USA
+    summary: |
+      Structured Systems Analysis and Design. Supported course delivery on system analysis, modeling, and design principles. Led review sessions, graded projects, and guided student teams on secure system architecture.
+  - position: Graduate Research Assistant
+    company_name: UMBC
+    company_url: ''
     date_start: 2024-11-01
     date_end: 2024-12-31
-    description: |
-      Worked on decomposition-based causal discovery for long-term effects in
-      multivariate time series. Designed preprocessing pipelines, implemented
-      decomposition methods, and evaluated causal discovery frameworks.
-  - title: Graduate Teaching Assistant
-    company: University of Maryland, Baltimore County
-    company_url: https://umbc.edu
-    location: Baltimore, MD, USA
+    summary: |
+      Developed decomposition-based causal discovery framework for time-series data with applications in anomaly detection and cybersecurity analytics.
+  - position: Graduate Teaching Assistant
+    company_name: UMBC
+    company_url: ''
     date_start: 2022-01-01
     date_end: 2024-05-31
-    description: |
-      Supported Management Information Systems, Database Program Development, and
-      Advanced Database Project courses. Assisted students, graded assignments, and
-      helped improve course materials.
+    summary: |
+      Database Program Development, MIS, Advanced Database Project. Taught SQL, schema design, and query optimization. Integrated cybersecurity modules addressing data privacy, authentication, and access control.
 
-# Skills (optional section used by some layouts)
+# Skills
 skills:
-  - name: Machine Learning & Causal Inference
+  - name: Technical Skills
     items:
-      - Causal discovery
-      - Time series analysis
-      - Deep learning
-      - Model evaluation
-  - name: Programming
-    items:
-      - Python
-      - R
-      - TensorFlow
-      - PyTorch
-      - scikit-learn
-      - NumPy / Pandas
+      - name: Python, R, SQL, Java, C++
+        description: ''
+        percent: 100
+        icon: code-bracket
+      - name: Cybersecurity & Ethical Hacking
+        description: ''
+        percent: 90
+        icon: shield-check
+      - name: Data Analytics & Visualization
+        description: ''
+        percent: 95
+        icon: chart-bar
+      - name: PyTorch, TensorFlow, Scikit-learn
+        description: ''
+        percent: 85
+        icon: cpu-chip
   - name: Tools
+    color: '#eeac02'
+    color_border: '#f0bf23'
     items:
-      - Git
-      - Google Colab
-      - Jupyter
-      - VS Code
-      - LaTeX
-      - Linux/Unix
+      - name: Git & Docker
+        description: ''
+        percent: 90
+        icon: server
+      - name: Linux (Fedora/Ubuntu)
+        description: ''
+        percent: 85
+        icon: command-line
+      - name: Tableau & Power BI
+        description: ''
+        percent: 80
+        icon: presentation-chart-line
 
-# Optionally, highlight a couple of achievements
-achievements:
-  - title: Peer-reviewed publications
-    url: /publication/
+# Awards
+awards:
+  - title: COEIT Summer Student Project Award
+    date: '2025-01-01'
+    awarder: UMBC
+    summary: |
+      $5,000 competitive research grant.
+  - title: Honorable Mention - Research Poster
+    date: '2025-01-01'
+    awarder: COEIT Research Day, UMBC
+  - title: Travel Award
     date: '2023-01-01'
-    awarder: MLHC & AAAI
-    icon: hero/document-text
-    summary: >
-      First-author publications on temporal causal discovery from autocorrelated and
-      non-stationary time series at MLHC 2023 and AAAI 2023 (student abstract).
-  - title: Causal AI for Arctic Sea Ice
-    url: ''
-    date: '2025-03-01'
-    awarder: IEEE PerCom Workshop (CARD 2025)
-    icon: hero/globe-alt
-    summary: >
-      Co-authored a causal deep learning framework for Arctic sea ice prediction,
-      accepted at the Causal AI for Robust Decision Making workshop.
-
+    awarder: Machine Learning for Healthcare Conference
 ---
 
-Muhammad Hasan Ferdous is a Ph.D. candidate in Information Systems at the
-University of Maryland, Baltimore County (UMBC). His research focuses on robust
-causal discovery from autocorrelated, non-stationary multivariate time series,
-bridging the gap between theoretical guarantees and practical deployment in
-domains such as healthcare and climate.
+Educator and researcher specializing in causal AI, data analytics, and secure information systems. My goal is to integrate hands-on labs, applied analytics, and inclusive pedagogy to prepare students for transfer and workforce pathways in cybersecurity, computer science, and business analytics.
 
-Hasan develops methods that decompose temporal structure and leverage modern
-machine learning to identify stable, intervention-relevant causal relationships.
-His recent work includes CDANs and eCDANs for temporal causal discovery,
-decomposition-based causal discovery (DCD), and TimeGraph, a synthetic benchmark
-suite for stress-testing time-series causal discovery algorithms.
-
-He has teaching experience across information systems and data management
-courses, including Management Information Systems, Database Program Development,
-Advanced Database Project, and Structured Systems Analysis and Design. Beyond
-research and teaching, he enjoys thinking about how causal AI can make real-world
-decision systems more robust and interpretable.
+I have extensive experience as a Graduate Teaching Assistant at UMBC, covering courses such as Structured Systems Analysis and Design, Database Program Development, and Management Information Systems. My research focuses on Causal Discovery from Complex Multivariate Time Series Data, with recent work on frameworks for anomaly detection and cybersecurity analytics.
