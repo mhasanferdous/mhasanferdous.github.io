@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Muhammad Hasan Ferdous
+title: M. Hasan Ferdous
 
 # Name pronunciation (optional)
 name_pronunciation: ''
