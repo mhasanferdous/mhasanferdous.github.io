@@ -143,6 +143,10 @@ awards:
     awarder: Machine Learning for Healthcare Conference
 ---
 
-Educator and researcher specializing in causal AI, data analytics, and secure information systems. My goal is to integrate hands-on labs, applied analytics, and inclusive pedagogy to prepare students for transfer and workforce pathways in cybersecurity, computer science, and business analytics.
+I am a Ph.D. candidate in Information Systems at UMBC specializing in causal AI, temporal causal discovery, and robust analysis of complex multivariate time series. My research focuses on developing methods that remain reliable under autocorrelation, non-stationarity, latent structure, and irregular sampling, with applications in healthcare, climate analytics, and cybersecurity.
 
-I have extensive experience as a Graduate Teaching Assistant at UMBC, covering courses such as Structured Systems Analysis and Design, Database Program Development, and Management Information Systems. My research focuses on Causal Discovery from Complex Multivariate Time Series Data, with recent work on frameworks for anomaly detection and cybersecurity analytics.
+I have contributed several frameworks to the field, including CDANs, eCDANs, DCD (Decomposition-based Causal Discovery), and TimeGraph, a synthetic benchmark suite that evaluates causal discovery algorithms under realistic temporal challenges. My work aims to bridge theory and practice by producing interpretable, intervention-relevant causal models that support high-stakes decision systems.
+
+As a Graduate Teaching Assistant at UMBC, I have supported courses such as Structured Systems Analysis and Design, Database Program Development, Advanced Database Project, and Management Information Systems. I emphasize hands-on learning, analytical thinking, and accessible instruction that prepares students for pathways in AI/ML, data science, and business analytics.
+
+
