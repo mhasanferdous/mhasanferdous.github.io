@@ -23,8 +23,11 @@ tags:
 featured: true
 
 image:
-  caption: ''
-  focal_point: ""
+  filename: "featured.png"
+  caption: ""
+  focal_point: "Center"
   preview_only: false
 
+
 ---
+
