@@ -1,3 +1,4 @@
+---
 title: "Beyond Next-Token Prediction: Why Agentic AI Needs Causal Guardrails"
 summary: "Why large language models break under distribution shift, how prediction differs from control, and why causality is essential for robust Agentic AI."
 date: 2024-05-20
@@ -11,7 +12,7 @@ tags:
   - Research
 image:
   caption: "Image credit: Unsplash"
-
+---
 
 ## From Fluency to Fragility
 
