@@ -2,6 +2,7 @@
 title: "Why Large Language Models Fail When the World Changes And Why Causality Is No Longer Optional"
 summary: "Why large language models break under distribution shift, how prediction differs from control, and why causality is essential for robust Agentic AI."
 date: 2024-05-20
+draft: true
 authors:
   - admin
 tags:
