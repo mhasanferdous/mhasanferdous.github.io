@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Candidate in Information Systems
+role: Ph.D. Candidate in Information Systems (defending Summer 2026)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,42 +31,40 @@ organizations:
     url: https://umbc.edu/
 
 # Social network links
-profiles:
+social:
   - icon: at-symbol
     url: 'mailto:h.ferdous@umbc.edu'
     label: E-mail Me
+  - icon: brands/google-scholar
+    url: https://scholar.google.com/citations?user=fOBzV-QAAAAJ&hl=en
   - icon: brands/linkedin
     url: https://linkedin.com/in/hasanferdous/
   - icon: brands/github
     url: https://github.com/hferdous
+  - icon: brands/orcid
+    url: https://orcid.org/0000-0002-7182-1274
 
 interests:
-  - Causal AI
-  - Data Analytics
-  - Cybersecurity & Network Security
-  - Secure Information Systems
-  - Machine Learning
+  - Causal Discovery and Inference
+  - Trustworthy and Robust Machine Learning
+  - Time Series Analysis
+  - Open-Source Benchmarks for AI Reproducibility
+  - Adversarial and Robust ML for Cybersecurity
 
 education:
-  - area: Ph.D. in Information Systems
+  - area: PhD in Information Systems
     institution: University of Maryland, Baltimore County (UMBC)
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |
-      Focus on Causal Discovery from Complex Multivariate Time Series Data.
-      CGPA: 3.809/4.0. Candidacy: May 2025. Expected Graduation: 2026.
-  - area: M.S. in Information Systems
+    date_start: 2021-01
+    date_end: 2026-08
+    thesis_title: 'Bridging Theory and Practice. Robust Causal Discovery from Autocorrelated, Non-Stationary, and Irregular Time Series Data'
+    advisor: 'Dr. Md Osman Gani'
+  - area: MS in Information Systems
     institution: University of Maryland, Baltimore County (UMBC)
-    date_start: 2021-01-01
-    date_end: 2023-12-31
-    summary: |
-      CGPA: 3.809/4.0
-  - area: B.Sc. in Statistics
+    date_start: 2021-01
+    date_end: 2023-12
+  - area: BSc in Statistics
     institution: University of Dhaka, Bangladesh
-    date_start: 2005-05-01
-    date_end: 2010-12-31
-    summary: |
-      Result: 1st Class
+    date_end: 2010
 
 work:
   - position: Graduate Teaching Assistant
@@ -143,10 +141,14 @@ awards:
     awarder: Machine Learning for Healthcare Conference
 ---
 
-I am a Ph.D. candidate in Information Systems at UMBC specializing in causal AI, temporal causal discovery, and robust analysis of complex multivariate time series. My research focuses on developing methods that remain reliable under autocorrelation, non-stationarity, latent structure, and irregular sampling, with applications in healthcare, climate analytics, and cybersecurity.
+I am a Ph.D. candidate in Information Systems at the University of Maryland, Baltimore County, and will defend my dissertation in Summer 2026. My research addresses causal discovery in multivariate time series data exhibiting autocorrelation, non-stationarity, multi-seasonality, and irregular sampling. The work synthesizes statistical inference, machine learning, and information systems, building on a B.Sc. in Statistics from the University of Dhaka and graduate training in the UMBC Causal AI Lab under Dr. Md Osman Gani.
 
-I have contributed several frameworks to the field, including CDANs, eCDANs, DCD (Decomposition-based Causal Discovery), and TimeGraph, a synthetic benchmark suite that evaluates causal discovery algorithms under realistic temporal challenges. My work aims to bridge theory and practice by producing interpretable, intervention-relevant causal models that support high-stakes decision systems.
+My work has appeared in KDD, MLHC, AAAI, ICMLA, and IEEE PerCom Workshops, with two manuscripts currently under review at TMLR and the KDD 2026 Dataset Track. The methodological contributions include CDANs and eCDANs, constraint-based discovery algorithms with optimized conditioning sets for autocorrelated and non-stationary time series; DCD, a decomposition-based framework for multi-seasonal data; and the TimeGraph benchmark suite for evaluating temporal causal discovery methods. The CDANs algorithm is publicly available as a Python package (`pip install cdans`). I have applied these methods through collaborations with climate scientists at the University of Colorado Boulder on Arctic sea ice prediction and Greenland supraglacial lake evolution, and with the UMBC Causal AI Lab on healthcare informatics.
 
-As a Graduate Teaching Assistant at UMBC, I have supported courses such as Structured Systems Analysis and Design, Database Program Development, Advanced Database Project, and Management Information Systems. I emphasize hands-on learning, analytical thinking, and accessible instruction that prepares students for pathways in AI/ML, data science, and business analytics.
+I have served as a Graduate Teaching Assistant at UMBC for five consecutive semesters across four courses: Database Program Development, Advanced Database Project, Management Information Systems, and Structured Systems Analysis and Design. I have also developed a graduate lecture module on Causal AI. My pedagogical approach emphasizes active learning through the Flipped Classroom model and Think-Pair-Share exercises, the integration of authentic research datasets from healthcare and climate science, and frequent low-stakes assessment via embedded quizzes. Inclusive instruction that supports students across varying levels of preparation is central to my practice.
+
+> *I am on the academic job market for Fall 2026 or Spring 2027 starts and am applying for tenure-track Assistant Professor positions in Computer Science, Information Systems, and Data Science. I welcome inquiries from departments seeking faculty at the intersection of methodological research and undergraduate mentorship. Email: [h.ferdous@umbc.edu](mailto:h.ferdous@umbc.edu).*
+
+[Download CV (PDF)](/uploads/resume.pdf) · [Research Statement (PDF)](/uploads/research-statement.pdf) · [Teaching Statement (PDF)](/uploads/teaching-statement.pdf) · [Diversity Statement (PDF)](/uploads/diversity-statement.pdf)
 
 

@@ -89,35 +89,44 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
+  - block: markdown
     id: news
     content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      title: 'News'
+      text: |
+        - **Summer 2026.** Ph.D. defense at UMBC. On the academic job market for Fall 2026 and Spring 2027 starts.
+        - **February 2026.** DCD preprint released ([arXiv:2602.01433](https://arxiv.org/abs/2602.01433)) and submitted to *Transactions on Machine Learning Research*.
+        - **2026.** CDANs released as an open-source Python package: `pip install cdans` ([GitHub](https://github.com/hferdous/CDANs)).
+        - **December 2025.** *Causal Time Series Modeling of Supraglacial Lake Evolution in Greenland under Distribution Shift* accepted at IEEE ICMLA 2025 ([arXiv](https://arxiv.org/abs/2510.15265)).
+        - **October 2025.** *ClassyGlass: A Benchmark Dataset for Activity and Mobility Analysis using Smart Eyewear* submitted to the KDD 2026 Dataset Track.
+        - **August 2025.** Awarded the COEIT Summer Student Project Award ($5,000) from UMBC for student-led research.
+        - **August 2025.** *TimeGraph: Synthetic Benchmark Datasets for Robust Time-Series Causal Discovery* published at KDD 2025 ([paper](/publications/timegraph/), [DOI](https://doi.org/10.1145/3711896.3737439)).
+        - **May 2025.** Honorable Mention for Research Poster, COEIT Research Day, UMBC.
+        - **March 2025.** *Correlation to Causation: A Causal Deep Learning Framework for Arctic Sea Ice Prediction* presented at IEEE PerCom Workshops 2025 ([DOI](https://doi.org/10.1109/PerComWorkshops65533.2025.00042)).
+        - **2023.** *CDANs: Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data* published at MLHC 2023 (New York). MLHC Travel Award ([paper](/publications/cdans/)).
+        - **2023.** *eCDANs: Efficient Temporal Causal Discovery from Autocorrelated and Non-Stationary Data* (Student Abstract) at AAAI 2023 ([paper](/publications/ecdans/)).
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
+  - block: markdown
+    id: honors
+    content:
+      title: 'Honors and Awards'
+      text: |
+        - COEIT Summer Student Project Award ($5,000), UMBC, Summer 2025. Competitive award supporting student-led research and innovation.
+        - Honorable Mention for Research Poster, COEIT Research Day 2025, UMBC.
+        - Travel Award, Machine Learning for Healthcare (MLHC) Conference, New York, 2023.
+    design:
+      columns: '1'
+  - block: markdown
+    id: service
+    content:
+      title: 'Professional Service'
+      text: |
+        Reviewer and sub-reviewer for AAAI, IEEE PerCom Workshops, and ACM SIGKDD-affiliated venues.
+
+        Presenter at COEIT Research Day (UMBC, 2024 and 2025) and the Information Systems Student Research Symposium (UMBC, 2022).
+    design:
+      columns: '1'
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
