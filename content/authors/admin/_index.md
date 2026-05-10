@@ -31,7 +31,7 @@ organizations:
     url: https://umbc.edu/
 
 # Social network links
-profiles:
+social:
   - icon: at-symbol
     url: 'mailto:h.ferdous@umbc.edu'
     label: E-mail Me
