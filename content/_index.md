@@ -107,6 +107,26 @@ sections:
         - **2023.** *eCDANs: Efficient Temporal Causal Discovery from Autocorrelated and Non-Stationary Data* (Student Abstract) at AAAI 2023 ([paper](/publications/ecdans/)).
     design:
       columns: '1'
+  - block: markdown
+    id: honors
+    content:
+      title: 'Honors and Awards'
+      text: |
+        - COEIT Summer Student Project Award ($5,000), UMBC, Summer 2025. Competitive award supporting student-led research and innovation.
+        - Honorable Mention for Research Poster, COEIT Research Day 2025, UMBC.
+        - Travel Award, Machine Learning for Healthcare (MLHC) Conference, New York, 2023.
+    design:
+      columns: '1'
+  - block: markdown
+    id: service
+    content:
+      title: 'Professional Service'
+      text: |
+        Reviewer and sub-reviewer for AAAI, IEEE PerCom Workshops, and ACM SIGKDD-affiliated venues.
+
+        Presenter at COEIT Research Day (UMBC, 2024 and 2025) and the Information Systems Student Research Symposium (UMBC, 2022).
+    design:
+      columns: '1'
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
