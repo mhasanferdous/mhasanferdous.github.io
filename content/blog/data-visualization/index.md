@@ -2,6 +2,7 @@
 title: "Beyond Next-Token Prediction: Why Agentic AI Needs Causal Guardrails"
 summary: "Exploring why the shift from Generative AI to Agentic AI requires a move from statistical correlation to causal reasoning."
 date: 2024-05-20
+draft: true
 authors:
   - admin
 tags:
