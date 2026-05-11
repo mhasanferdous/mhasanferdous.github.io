@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research · Muhammad Hasan Ferdous</title>
+  <meta name="description" content="Research program: causal discovery methods for complex time series data, open-source benchmarks, and interdisciplinary applications.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://mhasanferdous.github.io/research.html">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Muhammad Hasan Ferdous</a>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="software.html">Software</a>
+      <a href="diversity.html">Diversity</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="container">
+
+<section>
+  <h1>Research</h1>
+</section>
+
+<section>
+  <h2>Research Vision</h2>
+
+  <p>
+    Contemporary machine learning systems are effective at identifying statistical regularities but offer limited capacity for causal explanation. The distinction matters in domains where decisions depend on understanding the mechanisms behind observed patterns rather than the patterns themselves. My research develops methods for causal discovery in complex time series data and the open-source software through which those methods become accessible to other researchers, students, and practitioners.
+  </p>
+
+  <p>
+    The work is positioned at the intersection of statistics, machine learning, and information systems. My undergraduate training in statistics at the University of Dhaka provides the foundation for formal inference; my graduate training at UMBC in information systems provides the orientation toward deployable, application-grounded research; and my dissertation work in the UMBC Causal AI Lab under Dr. Md Osman Gani provides the algorithmic depth.
+  </p>
+</section>
+
+<section>
+  <h2>Completed Contributions</h2>
+
+  <h3>Constraint-based causal discovery: CDANs and eCDANs</h3>
+  <p>
+    Constraint-based causal discovery algorithms condition on the full history of a process, an approach that is computationally expensive and statistically inefficient when data are autocorrelated. The CDANs framework (MLHC 2023) optimizes the conditioning sets used in constraint-based search by explicitly identifying lagged parents, reducing the search space and improving detection power. CDANs also introduces a mechanism for detecting changing modules: components whose causal structure varies over time as a result of distribution shifts. The framework considers both contemporaneous and lagged parents when assessing structural changes.
+  </p>
+  <p>
+    eCDANs (AAAI 2023) refines the lagged-adjacency search strategy, preserving the accuracy of CDANs while reducing computational overhead. The resulting method is suitable for larger datasets and for deployment in resource-constrained environments such as bedside monitoring and edge devices.
+  </p>
+  <p>
+    CDANs is publicly available as a Python package: <code>pip install cdans</code> (<a href="https://github.com/hferdous/CDANs">GitHub</a>).
+  </p>
+
+  <h3>Decomposition-based discovery for multi-seasonal data: DCD</h3>
+  <p>
+    Real-world time series in climate, finance, and operational domains typically contain overlapping seasonal patterns and long-term trends. These structures confound standard causal discovery algorithms. The DCD framework (<a href="https://arxiv.org/abs/2602.01433">arXiv:2602.01433</a>, under review at TMLR) separates each time series into trend, seasonal, and residual components and applies different inference procedures to each: stationarity testing for trends, kernel-based dependence measures for seasonal components, and constraint-based discovery for residuals. The component-level findings are integrated into a unified multi-scale causal graph. Empirical results on synthetic benchmarks and real climate data show consistent improvement over state-of-the-art baselines under strong non-stationarity and autocorrelation.
+  </p>
+
+  <h3>Open-source benchmarks: TimeGraph and ClassyGlass</h3>
+  <p>
+    Progress in causal discovery has been constrained by inconsistent evaluation. Researchers test methods on different datasets, often under simplified conditions, which makes cross-method comparison difficult and obscures the conditions under which a given approach succeeds or fails.
+  </p>
+  <p>
+    TimeGraph (KDD 2025) is a synthetic benchmark suite that simulates realistic temporal complexities. The suite generates datasets with controlled causal structures, calibrated autocorrelation, non-stationarity, multiple noise distributions, and seasonal patterns. ClassyGlass (under review, KDD 2026 Dataset Track) extends the benchmarking program to multimodal wearable-sensor data for activity and mobility analysis. Both resources are released as open-source software with the aim of lowering the barrier to rigorous and reproducible evaluation, particularly for undergraduate and early-career researchers.
+  </p>
+
+  <h3>Climate, healthcare, and interdisciplinary applications</h3>
+  <p>
+    I have applied my methods through several interdisciplinary collaborations. With Dr. Aneesh Subramanian (University of Colorado Boulder), I co-developed a causal deep-learning framework for Arctic sea ice prediction (IEEE PerCom Workshops 2025) and a causal time series model of Greenland supraglacial lake evolution (IEEE ICMLA 2025). Both projects integrate causal discovery with deep learning to produce forecasts that maintain accuracy under distribution shift. In healthcare, I have applied causal discovery to physiological time series and to clinical datasets including the Pima Indian Diabetes database, with the goal of identifying physiological parameters that constitute actionable intervention targets rather than correlational risk markers.
+  </p>
+</section>
+
+<section>
+  <h2>Five-Year Research Agenda</h2>
+
+  <p>
+    My research program will be organized around four interconnected thrusts that advance foundational methods while maintaining connections to real-world applications.
+  </p>
+
+  <div class="thrust">
+    <p class="thrust-note">Thrust 1</p>
+    <h3>Foundational causal AI for streaming, non-stationary systems</h3>
+    <p>
+      I will extend the CDANs and DCD frameworks to streaming and concept-drifting data, which is the regime in which most production information systems operate. Projects include online causal discovery with bounded memory, causal change-point detection, methods for handling missingness arising from sensor failure rather than missing-at-random assumptions, and the integration of causal reasoning with anomaly detection. These methods support trustworthy inference across cyber-physical systems, sensor networks, and operational monitoring.
+    </p>
+  </div>
+
+  <div class="thrust">
+    <p class="thrust-note">Thrust 2</p>
+    <h3>Integration of causal inference with deep learning</h3>
+    <p>
+      Deep learning captures complex patterns but offers limited transparency. Causal models provide explicit structure but face scalability challenges in high-dimensional settings. This thrust develops hybrid neuro-causal frameworks that embed causal discovery into deep representation learning. The goal is to retain predictive performance while gaining the ability to reason about cause and effect under distribution shift. Specific directions include neuro-causal models for transfer learning and the development of interpretable explanations grounded in causal structure. This is a productive area for undergraduate involvement through course projects, summer research, and senior capstones.
+    </p>
+  </div>
+
+  <div class="thrust">
+    <p class="thrust-note">Thrust 3</p>
+    <h3>Open-source ecosystem for reproducible causal AI</h3>
+    <p>
+      My research program has already produced three distinct open-source contributions: the CDANs Python package, the TimeGraph benchmark suite, and the ClassyGlass multimodal benchmark (under review). I will expand this ecosystem with semi-synthetic benchmarks drawn from finance, climate, healthcare, and security data; libraries that implement state-of-the-art causal discovery baselines; and community engagement through workshop organization at KDD, AAAI, and adjacent venues focused on trustworthy machine learning. Software infrastructure provides visibility for a department disproportionate to its cost, and it is sustainable work for dedicated undergraduate research assistants.
+    </p>
+  </div>
+
+  <div class="thrust">
+    <p class="thrust-note">Thrust 4</p>
+    <h3>Interdisciplinary collaboration and societal impact</h3>
+    <p>
+      Causal AI methods become valuable when they touch substantive problems. I plan collaborative projects in three application areas where my methods transfer naturally.
+    </p>
+    <p>
+      <strong>Healthcare and digital health.</strong> Causal modeling of physiological time series, trustworthy clinical decision support, and the identification of actionable intervention targets in chronic disease management.
+    </p>
+    <p>
+      <strong>Climate and environmental science.</strong> Extension of causal time series methods to ice-sheet dynamics, sea ice forecasting, and climate teleconnections, building on existing collaborations.
+    </p>
+    <p>
+      <strong>Adversarial robustness and security analytics.</strong> Causal feature selection for machine learning models with greater resistance to input perturbation, causal discovery for intrusion detection on autocorrelated network traffic, and causal explanations for security incidents in settings where analysts need root-cause reasoning beyond anomaly scores.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Funding Strategy</h2>
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>Program</th>
+        <th>Focus</th>
+        <th>Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>NSF</td>
+        <td>CRII; later CAREER</td>
+        <td>Foundational causal AI methods; open-source infrastructure</td>
+        <td>1&ndash;3, then 3&ndash;5</td>
+      </tr>
+      <tr>
+        <td>NSF</td>
+        <td>SaTC; CICI</td>
+        <td>Causal and adversarially robust ML for security analytics</td>
+        <td>2&ndash;5</td>
+      </tr>
+      <tr>
+        <td>NIH</td>
+        <td>R03 / R21 / R-series</td>
+        <td>Trustworthy clinical decision support; causal modeling of physiological time series</td>
+        <td>2&ndash;5</td>
+      </tr>
+      <tr>
+        <td>DoE / NOAA</td>
+        <td>Data Science programs</td>
+        <td>Causal discovery for climate and environmental modeling</td>
+        <td>2&ndash;5</td>
+      </tr>
+      <tr>
+        <td>Industry</td>
+        <td>Sponsored research</td>
+        <td>Finance, enterprise IT, regional and national technology partners</td>
+        <td>Ongoing</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Student-Centered Research Program</h2>
+  <p>
+    My research program is designed for substantive student involvement. Open-source benchmarks and software packages produce work in which well-supervised undergraduates contribute meaningfully, and the resulting artifacts (published code, datasets, reproducibility audits) carry weight on graduate school applications and industry resumes. My objective targets are at least one peer-reviewed publication per year with a student co-author by year three, and at least one student per year placed into industry internships or graduate programs.
+  </p>
+</section>
+
+<section>
+  <h2>Collaboration</h2>
+  <p>
+    I welcome collaboration at the intersection of causal inference, time series modeling, and applied decision systems. If your research involves healthcare AI, climate analytics, security analytics, or any domain in which prediction-only models break under distribution shift, please reach out: <a href="mailto:h.ferdous@umbc.edu">h.ferdous@umbc.edu</a>.
+  </p>
+</section>
+
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container-wide">
+    <span>&copy; 2026 Muhammad Hasan Ferdous</span>
+    <span>
+      <a href="mailto:h.ferdous@umbc.edu">h.ferdous@umbc.edu</a> ·
+      <a href="https://github.com/hferdous">GitHub</a> ·
+      <a href="https://scholar.google.com/citations?user=fOBzV-QAAAAJ&amp;hl=en">Scholar</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>

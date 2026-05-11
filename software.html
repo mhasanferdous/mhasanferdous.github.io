@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software · Muhammad Hasan Ferdous</title>
+  <meta name="description" content="Open-source software portfolio: CDANs Python package, TimeGraph benchmark suite, and ClassyGlass.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://mhasanferdous.github.io/software.html">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Muhammad Hasan Ferdous</a>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="software.html" class="active">Software</a>
+      <a href="diversity.html">Diversity</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="container">
+
+<section>
+  <h1>Software</h1>
+  <p class="page-intro">
+    Reproducible research and accessible tools are central commitments of my research program. The software listed below is publicly released, documented, and designed for use by other researchers, students, and practitioners.
+  </p>
+</section>
+
+<section>
+  <article class="software-card">
+    <h3>CDANs</h3>
+    <p>
+      Constraint-based causal discovery with optimized conditioning sets, designed to handle autocorrelation, non-stationarity, and time-varying causal structure in multivariate time series. The package implements the methods described in our MLHC 2023 paper with a refined API and an emphasis on resource efficiency suitable for bedside monitoring and edge deployment.
+    </p>
+    <code class="install">pip install cdans</code>
+    <p style="margin: 0.5rem 0 0;">
+      Reference: Ferdous, Hasan, and Gani. <em>CDANs: Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data.</em> MLHC 2023.
+    </p>
+    <div class="links">
+      <a href="https://github.com/hferdous/CDANs">Repository</a>
+      <a href="publications.html#cdans">Paper</a>
+    </div>
+    <div class="status">Stable release on PyPI</div>
+  </article>
+
+  <article class="software-card">
+    <h3>TimeGraph</h3>
+    <p>
+      A synthetic benchmark suite for time series causal discovery. The suite simulates realistic temporal complexities, including controlled causal structures, calibrated autocorrelation, non-stationarity, multiple noise distributions, and seasonal patterns. The intent is to allow honest comparison across methods and to expose the conditions under which each method succeeds or fails.
+    </p>
+    <p style="margin: 0.5rem 0 0;">
+      Reference: Ferdous, Hossain, and Gani. <em>TimeGraph: Synthetic Benchmark Datasets for Robust Time-Series Causal Discovery.</em> KDD 2025.
+    </p>
+    <div class="links">
+      <a href="https://doi.org/10.1145/3711896.3737439">Paper (DOI)</a>
+    </div>
+    <div class="status">Published at KDD 2025</div>
+  </article>
+
+  <article class="software-card">
+    <h3>ClassyGlass</h3>
+    <p>
+      A benchmark dataset for activity and mobility analysis using smart eyewear. The dataset provides annotated multimodal sensor data and is intended to support the evaluation of causal and predictive methods in human activity recognition and health monitoring.
+    </p>
+    <p style="margin: 0.5rem 0 0;">
+      Reference: Mahmud, Emmert, Ferdous, et al. <em>ClassyGlass: A Benchmark Dataset for Activity and Mobility Analysis using Smart Eyewear.</em> Submitted to KDD 2026 Dataset Track.
+    </p>
+    <div class="status">Under review</div>
+  </article>
+</section>
+
+<section>
+  <h2>Citation</h2>
+  <p>
+    If you use any of these tools in your research, please cite the corresponding paper. BibTeX entries are available on the linked publication pages.
+  </p>
+</section>
+
+<section>
+  <h2>Contributions</h2>
+  <p>
+    Contributions, bug reports, and feature requests are welcome. Students or researchers interested in extending these tools (additional baselines, support for new data modalities, application to new domains) are encouraged to open an issue on the relevant repository or contact me by email at <a href="mailto:h.ferdous@umbc.edu">h.ferdous@umbc.edu</a>.
+  </p>
+</section>
+
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container-wide">
+    <span>&copy; 2026 Muhammad Hasan Ferdous</span>
+    <span>
+      <a href="mailto:h.ferdous@umbc.edu">h.ferdous@umbc.edu</a> ·
+      <a href="https://github.com/hferdous">GitHub</a> ·
+      <a href="https://scholar.google.com/citations?user=fOBzV-QAAAAJ&amp;hl=en">Scholar</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
