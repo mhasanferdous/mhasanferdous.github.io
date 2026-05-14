@@ -57,9 +57,9 @@
     CDANs is publicly available as a Python package: <code>pip install cdans</code> (<a href="https://github.com/hferdous/CDANs">GitHub</a>).
   </p>
 
-  <h3>Decomposition-based discovery for multi-seasonal data: DCD</h3>
+  <h3>Decomposition-based discovery for multi-seasonal data: DCD and G-DCD</h3>
   <p>
-    Real-world time series in climate, finance, and operational domains typically contain overlapping seasonal patterns and long-term trends. These structures confound standard causal discovery algorithms. The DCD framework (<a href="https://arxiv.org/abs/2602.01433">arXiv:2602.01433</a>, under review at TMLR) separates each time series into trend, seasonal, and residual components and applies different inference procedures to each: stationarity testing for trends, kernel-based dependence measures for seasonal components, and constraint-based discovery for residuals. The component-level findings are integrated into a unified multi-scale causal graph. Empirical results on synthetic benchmarks and real climate data show consistent improvement over state-of-the-art baselines under strong non-stationarity and autocorrelation.
+    Real-world time series in climate, finance, and operational domains typically contain overlapping seasonal patterns and long-term trends. These structures confound standard causal discovery algorithms. The DCD framework (<a href="https://arxiv.org/abs/2602.01433">arXiv:2602.01433</a>, under review at TMLR) separates each time series into trend, seasonal, and residual components and applies different inference procedures to each: stationarity testing for trends, kernel-based dependence measures for seasonal components, and constraint-based discovery for residuals. The component-level findings are integrated into a unified multi-scale causal graph. Empirical results on synthetic benchmarks and real climate data show consistent improvement over state-of-the-art baselines under strong non-stationarity and autocorrelation. The framework has been extended as <strong>G-DCD</strong> (Generalized DCD) to handle multivariate multi-seasonal temporal data, which was recognized with a COEIT Research Day 2026 Student Award.
   </p>
 
   <h3>Open-source benchmarks: TimeGraph and ClassyGlass</h3>
